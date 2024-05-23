@@ -14,7 +14,7 @@ class MockVideoPlayer {
 
     initialize = async () => {
         const sdkReady = await new BsdkInstance(
-            'DHG163HR-BH45-JKY6-BKH7-67GJKY68GJK7', // AppId
+            'T4C09597F-ED21-4439-A627-EE6091D30C1A', // AppId
             'myInstance0', // instanceName
             // metadata
             {
@@ -29,8 +29,6 @@ class MockVideoPlayer {
                 optout: 'false',
                 protocol: 'https',
                 //nol_sdkDebug: 'debug',
-                configEnv: 'static-staging2.nonprod.digitalengsdk.com',
-                configPath: 'conf2'
             }, 
             // implementationHooks
             {

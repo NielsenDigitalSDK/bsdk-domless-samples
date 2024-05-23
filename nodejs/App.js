@@ -28,8 +28,6 @@ rl.on('line', (input) => {
         videoPlayer.loadmetadata(videoMetadata);
     } else if (input === 'play') {
         videoPlayer.play();
-    } else if (input === 'stop') {
-        videoPlayer.stop();
     } else if (input === 'pause') {
         videoPlayer.pause();
     } else if (input.includes('playheadPosition')) {
