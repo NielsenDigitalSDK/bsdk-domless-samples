@@ -20,6 +20,7 @@ This is a simple CLI app that mimicks a video player and processes the events fr
 Once the app is running, you can call the following events in the CLI:
 
 - loadmetadata - Must be called first to load the metadata
+- id3
 - play
 - pause
 - end
