@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "bsdk-domless": "github:NielsenDigitalSDK/bsdk-domless#1.0.0",
+    "bsdk-domless": "github:NielsenDigitalSDK/bsdk-domless",
     "readline": "^1.3.0"
   }
 }
