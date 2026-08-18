@@ -41,16 +41,7 @@ const implementationHooks = {
     },
   },
   Fetch: async function (url: string | URL | Request, options: any) {
-    // TODO: look into different npm packages and see what the User-Agent being passed in is
-    const clientOpts = {
-      headers: {
-        'User-Agent':
-          'react-native-domless/1.6.7.42 Dalvik/2.1.0 (Linux; U; Android 5.1.1; Android SDK built for x86 Build/LMY48X)',
-      },
-    };
-    const data = Object.assign(options, clientOpts);
-
-    const response = await fetch(url, data);
+    const response = await fetch(url, options);
     if (response.ok) {
       return response;
     } else {
